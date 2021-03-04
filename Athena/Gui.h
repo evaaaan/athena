@@ -366,7 +366,7 @@ namespace Athena {
 			this->linkLabel1->Size = System::Drawing::Size(249, 25);
 			this->linkLabel1->TabIndex = 26;
 			this->linkLabel1->TabStop = true;
-			this->linkLabel1->Text = L"github.com/evaaaan/athena";
+			this->linkLabel1->Text = L"github.com/evaan/athena";
 			this->linkLabel1->VisitedLinkColor = System::Drawing::Color::White;
 			this->linkLabel1->LinkClicked += gcnew System::Windows::Forms::LinkLabelLinkClickedEventHandler(this, &Gui::linkLabel1_LinkClicked);
 			// 
@@ -446,7 +446,7 @@ namespace Athena {
 		}
 	}
 	private: System::Void linkLabel1_LinkClicked(System::Object^ sender, System::Windows::Forms::LinkLabelLinkClickedEventArgs^ e) {
-		System::Diagnostics::Process::Start(L"https://github.com/evaaaan/athena");
+		System::Diagnostics::Process::Start(L"https://github.com/evaan/athena");
 	}
 	private: System::Void checkBox1_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {bhop = checkBox1->Checked;}
 	private: System::Void checkBox2_CheckedChanged(System::Object^ sender, System::EventArgs^ e) {noFlash = checkBox2->Checked;}
